@@ -39,6 +39,7 @@
             this.groupList = new System.Windows.Forms.CheckedListBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.chkAll = new System.Windows.Forms.CheckBox();
+            this.linkSource = new System.Windows.Forms.LinkLabel();
             this.panelMain.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -143,6 +144,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.linkSource);
             this.panel3.Controls.Add(this.chkAll);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 297);
@@ -160,6 +162,17 @@
             this.chkAll.Text = "全选";
             this.chkAll.UseVisualStyleBackColor = true;
             this.chkAll.CheckedChanged += new System.EventHandler(this.chkAll_CheckedChanged);
+            // 
+            // linkSource
+            // 
+            this.linkSource.AutoSize = true;
+            this.linkSource.Location = new System.Drawing.Point(475, 14);
+            this.linkSource.Name = "linkSource";
+            this.linkSource.Size = new System.Drawing.Size(29, 12);
+            this.linkSource.TabIndex = 2;
+            this.linkSource.TabStop = true;
+            this.linkSource.Text = "源码";
+            this.linkSource.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSource_LinkClicked);
             // 
             // FormMain
             // 
@@ -195,6 +208,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.CheckBox chkAll;
+        private System.Windows.Forms.LinkLabel linkSource;
     }
 }
 

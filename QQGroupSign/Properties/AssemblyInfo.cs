@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("QQGroupSign")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("feiyu0123@live.com")]
+[assembly: AssemblyCompany("feiyu0123@foxmail.com")]
 [assembly: AssemblyProduct("QQGroupSign")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]

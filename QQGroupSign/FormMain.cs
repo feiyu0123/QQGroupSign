@@ -12,6 +12,7 @@ using System.Collections.Specialized;
 using System.Web;
 using Newtonsoft.Json;
 using System.Threading;
+using System.Diagnostics;
 
 namespace QQGroupSign
 {
@@ -137,5 +138,9 @@ namespace QQGroupSign
             }
         }
 
+        private void linkSource_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/feiyu0123/qqgroupsign");
+        }
     }
 }
